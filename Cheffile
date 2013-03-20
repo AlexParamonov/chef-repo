@@ -4,6 +4,8 @@ site 'http://community.opscode.com/api/v1'
 
 cookbook 'apt'
 cookbook 'git'
+cookbook 'rvm'
+cookbook 'xfce4'
 cookbook 'vim',
   :git => "https://github.com/AlexParamonov/vim"
   # :path => "~/code/vim"
